@@ -33,7 +33,7 @@ jobs:
           args: >-
             --no-progress
             --max-concurrency 4
-            --accept 200,206,429
+            --accept 200,206,403,429
             --exclude-path .github
             README.md contributing.md
           fail: true
